@@ -3,11 +3,12 @@
  */
 import React, { Component } from 'react';
 
-class HelloWorldComponent extends Component{
+class HelloWorld extends Component{
     render(){
-        <div>Hello World!!!</div>
-    };
+        return (
+            <div>만나서 반갑습니당</div>
+        );
+    }
 }
 
-
-export default HelloWorldComponent;
+export default HelloWorld;
